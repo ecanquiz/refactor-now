@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Refactoriza ya ?',
+  title: 'Refactorizar ya ?',
   description: 'Métodología Ágil',
   base: '/refactor-now/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
