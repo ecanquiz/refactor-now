@@ -1,13 +1,16 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
   title: 'Refactoriza ya ?',
-  description: 'Vue Form.',
+  description: 'Métodología Ágil',
   base: '/refactor-now/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Inicio', link: '/' },      
+      { text: 'Inicio', link: '/' },           
       { text: 'Tutorial', link: '/tuto/refactor' },
-      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' },
-      { text: 'GitHub', link: 'https://github.com/CaribesTIC/vue-forms' }      
+      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' }, 
     ],
     sidebar: [
       {
@@ -25,7 +28,9 @@ export default {
           // https://desarrollowp.com/blog/tutoriales/como-refactorizar-el-anidamiento-masivo/    
         ]
         }        
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/CaribesTIC/refactor-now' }
     ]
   }
-}
-
+})
