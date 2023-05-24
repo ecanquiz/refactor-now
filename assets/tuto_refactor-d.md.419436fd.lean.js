@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.752867af.js";const i=JSON.parse('{"title":"Métodos extensos","description":"","frontmatter":{},"headers":[],"relativePath":"tuto/refactor-d.md"}'),p={name:"tuto/refactor-d.md"},o=l("",5),e=[o];function t(c,D,r,F,y,A){return a(),n("div",null,e)}const E=s(p,[["render",t]]);export{i as __pageData,E as default};

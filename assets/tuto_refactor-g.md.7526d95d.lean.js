@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,N as l}from"./chunks/framework.752867af.js";const i=JSON.parse('{"title":"Código duplicado (parte 3)","description":"","frontmatter":{},"headers":[],"relativePath":"tuto/refactor-g.md"}'),p={name:"tuto/refactor-g.md"},o=l("",7),e=[o];function t(c,r,D,y,A,F){return n(),a("div",null,e)}const d=s(p,[["render",t]]);export{i as __pageData,d as default};
