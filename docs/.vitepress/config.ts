@@ -7,10 +7,12 @@ export default defineConfig({
   base: '/refactor-now/', //  The default path during deployment / secondary address / base can be used/
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/mylogo.png',  
+    siteTitle: 'Refactorizar ya ?',
     nav: [
       { text: 'Inicio', link: '/' },           
       { text: 'Tutorial', link: '/tuto/refactor' },
-      { text: 'CaribesTIC', link: 'https://caribestic.github.io/' }, 
+      { text: 'ecanquiz', link: 'https://ecanquiz.github.io/' }, 
     ],
     sidebar: [
       {
@@ -30,7 +32,7 @@ export default defineConfig({
         }        
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CaribesTIC/refactor-now' }
+      { icon: 'github', link: 'https://github.com/ecanquiz/refactor-now' }
     ]
   }
 })
